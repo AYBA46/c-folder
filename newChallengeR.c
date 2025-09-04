@@ -14,4 +14,5 @@ scanf("%d",&b);
     printf("n\1 choice of somme");
         printf("n\1 choice of somme");
 
+        
 }

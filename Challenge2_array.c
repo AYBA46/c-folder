@@ -9,15 +9,9 @@ int main(){
 
     int number[n];
 
-    //Saisie
-    for(int i=2; i<n; i*=2 ) {
+    for(int i=0; i<n; i++ ) {
     printf("Enter number %d :", i);
     scanf("%d", &number[i]);
-    }
-
-    //Afficher
-    for(int i=0; i<n; i++ ) {
-    printf("\ntab[%d]= %d", i,number[i]);
     }
 
 return 0;
